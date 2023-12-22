@@ -1,4 +1,4 @@
-FROM ubuntu   # Укажите базовый образ, на основе которого вы создаете
+FROM nextcloud:fpm-alpine   # Укажите базовый образ, на основе которого вы создаете
 
 RUN apt-get update && apt-get install -y bash   # Установка пакета bash
 
